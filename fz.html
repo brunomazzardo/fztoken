@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Token Storage</title>
+    <style>
+        body {
+            font-family: 'Orbitron', sans-serif;
+            color: #f0f0f0;
+            margin: 0;
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: #23272a;
+            padding: 20px;
+            border-radius: 6px;
+            border: 2px solid #4b4f55;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+        }
+
+        h2 {
+            font-size: 18px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 15px;
+            color: #f39c12;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.8);
+        }
+
+        input[type='text'] {
+            width: 80%;
+            padding: 10px;
+            font-size: 14px;
+            background-color: #3a3e45;
+            border: none;
+            border-radius: 4px;
+            color: #f0f0f0;
+            margin-bottom: 15px;
+            text-align: center;
+            box-shadow: inset 0 0 5px rgba(0, 0, 0, 0.8);
+        }
+
+        input[type='text']::placeholder {
+            color: #cccccc;
+        }
+
+        button {
+            background-color: #f39c12;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            padding: 10px 20px;
+            font-size: 14px;
+            cursor: pointer;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            box-shadow: 0 4px #d68910;
+            transition: background-color 0.3s, box-shadow 0.3s;
+        }
+
+        button:hover {
+            background-color: #e67e22;
+            box-shadow: 0 4px #ca6f1e;
+        }
+
+        button:active {
+            background-color: #e67e22;
+            box-shadow: 0 2px #ca6f1e;
+            transform: translateY(2px);
+        }
+
+    </style>
+</head>
+<body>
+    <h2>Enter Token</h2>
+    <input type="text" id="tokenInput" placeholder="Enter your token here" />
+    <button id="saveTokenBtn">Save Token</button>
+
+<script src="fz.js"></script>
+</body>
+</html>

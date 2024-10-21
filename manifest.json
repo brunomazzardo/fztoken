@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "FZ Extension",
+  "description": "Base Level Extension",
+  "version": "1.0",
+  "permissions": ["storage", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "content_scripts": [
+    {
+      "matches": ["*://factorio.zone/*"],
+      "js": ["content.js"]
+    }
+  ],
+  "action": {
+    "default_popup": "fz.html",
+    "default_icon": "fz.png"
+  }
+}
