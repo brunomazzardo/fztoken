@@ -1,3 +1,3 @@
 Allows you to share server control on factorio.zone
 
-<img width="339" alt="image" src="https://github.com/user-attachments/assets/17695d7c-694d-4845-a7cc-5aed15515c75">
+<img width="344" alt="image" src="https://github.com/user-attachments/assets/77e59fc5-2a39-4085-baa3-5f01f54fc12f">
